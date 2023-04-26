@@ -14,6 +14,6 @@ import java.util.Objects;
  * @createDate: 2023/4/25 15:04
  **/
 public interface BookForest {
-    @Post(url = "http://www.wanho.net/a/jyxb/")
+    @Get(url = "https://book.jd.com/")
     Object sendPost();
 }
